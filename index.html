@@ -2,9 +2,28 @@
 <html lang="en">
 
 <head>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162313419-1"></script>
   <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"   />
+  <style>
+    #DownloadResumeBtn {
+      width: fit-content;
+      height: fit-content;
+      background-color: #7c00c9;
+      color: white;
+      padding: 0.8rem 1rem;
+      font-weight: bold;
+      border-radius: 5px;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+    }
+
+    #DownloadResumeBtn:hover {
+      background-color: rgb(134, 2, 129);
+    }
+  </style>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -65,8 +84,9 @@
         <a href="#mySuperW" class="nav-item">Skills</a>
         <a href="#work" class="nav-item">Work</a>
         <a href="#contact" class="nav-item">Contact</a>
-        <a href="./img/home/Jyoti-Kumari-Resume.pdf" download><a target="_blank" href="https://drive.google.com/file/d/1CV7dJ6WKB2eJGTs7P9fEP1DvwBWOBW7x/view?usp=sharing">Resume </a></a>
-      
+        <a href="./img/home/Jyoti-Kumari-Resume.pdf" download><a target="_blank"
+            href="https://drive.google.com/file/d/1CV7dJ6WKB2eJGTs7P9fEP1DvwBWOBW7x/view?usp=sharing">Resume </a></a>
+
       </div>
     </div>
   </nav>
@@ -88,7 +108,7 @@
           <div class="col-12">
             <div class="siema">
               <div id="jyo">
-                <img alt="Sample Work" src="img/home/female-coder.webp"  />
+                <img alt="Sample Work" src="img/home/female-coder.webp" />
               </div>
               <!-- <div>
                 <img alt="Sample Work" src="img/home/Picsart_22-06-03_22-46-42-797.png" />
@@ -108,17 +128,17 @@
           <h2>About Me</h2>
 
           <div>
-            <div id="aboutQ"><img class="profile_picHover"
-                style=" width: 300px; height:330px; border-radius: 100%;"
+            <div id="aboutQ"><img class="profile_picHover" style=" width: 300px; height:330px; border-radius: 100%;"
                 src="./Jyoti/slack-dp.jpeg" alt=""></div>
           </div>
-          
-          <p style="word-spacing: 7px ; font-weight:600; font-size: 22px;">Creative and detailed-oriented aspiring full-stack developer certified from Masai
-            School. 
+
+          <p style="word-spacing: 7px ; font-weight:600; font-size: 22px;">Creative and detailed-oriented aspiring
+            full-stack developer certified from Masai
+            School.
             Obtained efficient Programming and soft skills.
-           Having a good knowledge of Data structures and
-           algorithms, looking to leverage my expertise in a
-           position as a full stack web developer
+            Having a good knowledge of Data structures and
+            algorithms, looking to leverage my expertise in a
+            position as a full stack web developer
             Eager
             to apply development skills in creating maintaining, and
             developing projects within timeline.
@@ -126,7 +146,16 @@
             user interface to attract user.
 
           </p>
-          <div> <Button  id="resumebutton" >  <a href="./img/home/jyoti-kumari-resume.pdf" download> Resume</a></Button></div>
+          <div>
+            <a id="resumebutton"
+              href="https://drive.google.com/uc?export=download&id=1CV7dJ6WKB2eJGTs7P9fEP1DvwBWOBW7x">
+              <button id="DownloadResumeBtn">
+                Download Resume
+                <DownloadIcon />
+              </button>
+            </a>
+            <!-- <Button  id="resumebutton" >  <a href="./img/home/jyoti-kumari-resume.pdf" download> Resume</a></Button> -->
+          </div>
         </div>
       </div>
       <div class="row">
@@ -207,13 +236,14 @@
 								<img alt="CSS3" src="img/skills/sass.svg" />
 								<p>CSS</p>
 							</div> -->
-              <div>
-                <img alt="JavaScript" src="img/skills/node-js-logo.png" />
-                <p>NodeJS</p>
-              </div><div>
-                <img alt="JavaScript" src="img/skills/Mongo-DB.png" />
-                <p>MongoDB</p>
-              </div>
+            <div>
+              <img alt="JavaScript" src="img/skills/node-js-logo.png" />
+              <p>NodeJS</p>
+            </div>
+            <div>
+              <img alt="JavaScript" src="img/skills/Mongo-DB.png" />
+              <p>MongoDB</p>
+            </div>
             <div>
               <img alt="JavaScript" src="img/skills/js.svg" />
               <p>JavaScript</p>
@@ -244,178 +274,11 @@
         <div class="col-12">
           <h2>My Work</h2>
         </div>
-        <div class="col-12 col-lg-4">
-          <div class="project wow fadeInUp">
-            <img src="./Jyoti/Screenshot (19).png" alt="" />
-            <div class="" style="margin-top: 20px;">
-              <a href="https://fastidious-bienenstitch-ad0779.netlify.app/" target="blank" class="text">Visit</a>
-              <a href="https://github.com/Kandpalgokul01/NordstromRack_Construct_Week_1" target="blank" class="text">Source
-                Code</a>
 
-            </div>
-            <p style="color: black; padding: 2% 2% 2% 2%;">
-              Nordstromrack is an Indian e-commerce website
-              which provides the facility of Shopping online for
-              shoes, clothing, jewelry, dresses, makeup and
-              more from top brands at.
-            
-            </p>
-            <div style=" margin:auto;  margin-top: 4%; ">
-              <h3 style="color: black; margin: auto; margin-top: 6%; ; width: max-content; height: max-content;">Tech
-                Stack</h3>
-              <div style="display: flex; margin:auto; width: 90%; justify-content: space-around; ;">
-                <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://mpng.subpng.com/20180810/biz/kisspng-javascript-scalable-vector-graphics-logo-encapsula-javascript-le-ekran-grnts-almak-alpere-5b6dbeb48e4583.2854840415339189005828.jpg" />
-                  <p style=" color:black ;margin-top:-0.5%">JavaScript</p>
-                </div>
-                <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://www.pngitem.com/pimgs/m/198-1985012_transparent-css3-logo-png-css-logo-transparent-background.png" />
-                  <p style=" color:black ;margin-top:-0.5%">CSS</p>
-                </div>
-                <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png" />
-                  <p style=" color:black ;margin-top:-0.5%">HTML</p>
-                </div>
-                
-              </div>
-            </div>
-          </div>
+        <div class="col-12 col-lg-4">
           <div class="title">
-            <h2>Nordstrom Rack</h2>
+            <h2>Zoomcar</h2>
           </div>
-        </div>
-        <div class="col-12 col-lg-4">
-          <div class="project wow fadeInUp" data-wow-delay="0.1s">
-            <img src="./Jyoti/Screenshot (20).png" alt="" />
-
-            <div class="" style="margin-top: 20px;">
-             
-              <a href="https://gucci1909.github.io/Jio-Mart-Website-Clone/" target="blank" class="text">Visit</a>
-              <a href="https://github.com/gucci1909/Jio-Mart-Website-Clone" target="blank" class="text">Source Code</a>
-            </div>
-            <p style="color: black; padding: 2% 2% 2% 2%;">
-              JioMart is an Indian e-commerce website which
-              provides the facility of buying Online Grocery from
-              a wide range of fruits, vegetables, baby care
-              products, personal care products and much more.
-             
-            </p>
-            <div style=" margin:auto;  margin-top: 4%; ">
-              <h3 style="color: black; margin: auto; margin-top: 6%; ; width: max-content; height: max-content;">Tech
-                Stack</h3>
-              <div style="display: flex; margin:auto; width: 90%; justify-content: space-around; ;">
-                <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://mpng.subpng.com/20180810/biz/kisspng-javascript-scalable-vector-graphics-logo-encapsula-javascript-le-ekran-grnts-almak-alpere-5b6dbeb48e4583.2854840415339189005828.jpg" />
-                  <p style=" color:black ;margin-top:-0.5%">JavaScript</p>
-                </div>
-                <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://www.pngitem.com/pimgs/m/198-1985012_transparent-css3-logo-png-css-logo-transparent-background.png" />
-                  <p style=" color:black ;margin-top:-0.5%">CSS</p>
-                </div>
-                <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png" />
-                  <p style=" color:black ;margin-top:-0.5%">HTML</p>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-          <div class="title">
-            <h2>Jiomart</h2>
-          </div>
-        </div>
-        <div class="col-12 col-lg-4">
-          <div class="project wow fadeInUp" data-wow-delay="0.2s">
-            <img src="./Jyoti/Screenshot (22).png" alt="" />
-            <div class="" style="margin-top: 20px;">
-              <a href="https://fascinating-squirrel-ee2e99.netlify.app/" target="blank" class="text">Visit</a>
-              <a href="https://github.com/jigna16/groovy-airplane-6414" target="blank" class="text">Source Code</a>
-            </div>
-            <p style="color: black; padding: 2% 2% 2% 2%;">
-              It is an Indian e-commerce website which deals in
-              cosmetics & beauty products online.It is a beauty retail company that sells cosmetic commodities and fashion products, including men's innerwear, both online and offline.
-            </p>
-            <div style=" margin:auto;  margin-top: 4%; ">
-              <h3 style="color: black; margin: auto; margin-top: 6%; ; width: max-content; height: max-content;">Tech
-                Stack</h3>
-              <div style="display: flex; margin:auto; width: 90%; justify-content: space-around; ;">
-                <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://mpng.subpng.com/20180810/biz/kisspng-javascript-scalable-vector-graphics-logo-encapsula-javascript-le-ekran-grnts-almak-alpere-5b6dbeb48e4583.2854840415339189005828.jpg" />
-                  <p style=" color:black ;margin-top:-0.5%">JavaScript</p>
-                </div>
-                <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://www.pngitem.com/pimgs/m/198-1985012_transparent-css3-logo-png-css-logo-transparent-background.png" />
-                  <p style=" color:black ;margin-top:-0.5%">CSS</p>
-                </div>
-                <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png" />
-                  <p style=" color:black ;margin-top:-0.5%">HTML</p>
-                </div>
-                
-              </div>
-              
-            </div>
-          </div>
-          <div class="title">
-            <h2>Nykaa</h2>
-          </div>
-        </div>
-        <div class="col-12 col-lg-4">
-          <div class="project wow fadeInUp" data-wow-delay="0.2s">
-            <img src="./Jyoti/Screenshot (23).png" alt="" />
-
-            <div class="" style="margin-top: 20px;">
-              <div>
-
-              </div>
-              <a href="https://dazzling-genie-da491d.netlify.app/" target="blank" class="text">Visit</a>
-              <a href="https://github.com/jigna16/wanting-string-6207" target="blank" class="text">Source Code</a>
-            </div>
-            <p style="color: black; padding: 2% 2% 2% 2%;">
-              SUGAR Cosmetics is an Indian e-commerce company, founded by Vineeta Singh (Co-founder and CEO) with its headquarters in Mumbai. It focuses on selling makeup and skincare products that are millennial friendly, best suited for Indian skintones          </p>
-            <div style=" margin:auto;  margin-top: 4%; ">
-              <h3 style="color: black; margin: auto; margin-top: 6%; ; width: max-content; height: max-content;">Tech
-                Stack</h3>
-              <div style="display: flex; margin:auto; width: 90%; justify-content: space-around; ;">
-                <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://th.bing.com/th/id/OIP.Gix8OpUf5OSBg4_zKare5AHaHa?pid=ImgDet&rs=1" />
-                  <p style=" color:black ;margin-top:-0.5%">ReactJS</p>
-                </div>
-                <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://th.bing.com/th/id/OIP.bSEhsvI9lRtWOq4-Jz-QxAHaHa?pid=ImgDet&rs=1" />
-                  <p style=" color:black ;margin-top:-0.5%">TypeScript</p>
-                </div>
-                <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://img.stackshare.io/service/12421/rzylUjaf_400x400.jpg" />
-                  <p style=" color:black ;margin-top:-0.5%">Chakra UI</p>
-                </div>
-                <!-- <div>
-                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://4.bp.blogspot.com/-Fxo_qnGJBj0/WRoDPNdlEII/AAAAAAAABF0/1mSHmv5gleQaCsHKEDgTB3DbNghjCXvZACLcB/s1600/logo_firebase_1920px_clr.png" />
-                  <p style=" color:black ;margin-top:-0.5%">Firebase</p>
-                </div> -->
-              </div>
-            </div>
-          </div> 
-
-           <div class="title">
-            <h2>Sugar Cosmetics</h2>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-4">
           <div class="project wow fadeInUp" data-wow-delay="0.2s">
             <img src="./Jyoti/Screenshot (25).png" alt="" />
 
@@ -427,7 +290,9 @@
               <a href="https://github.com/Suneet25/sick-insect-8581" target="blank" class="text">Source Code</a>
             </div>
             <p style="color: black; padding: 2% 2% 2% 2%;">
-              Zoomcar is an e-commerce company which allows individuals to rent from a diverse pool of cars by the hour or by the day. Headquartered in Bangalore India, Zoomcar employs over 300 people and operates in over 50 cities       </p>
+              Zoomcar is an e-commerce company which allows individuals to rent from a diverse pool of cars by the hour
+              or by the day. Headquartered in Bangalore India, Zoomcar employs over 300 people
+             </p>
             <div style=" margin:auto;  margin-top: 4%; ">
               <h3 style="color: black; margin: auto; margin-top: 6%; ; width: max-content; height: max-content;">Tech
                 Stack</h3>
@@ -439,8 +304,8 @@
                 </div>
                 <div>
                   <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
-                    src="https://th.bing.com/th/id/OIP.bSEhsvI9lRtWOq4-Jz-QxAHaHa?pid=ImgDet&rs=1" />
-                  <p style=" color:black ;margin-top:-0.5%">TypeScript</p>
+                    src="https://ignitinsharma.github.io/static/media/JavaScript.3dfb665e058d08c99f28.png" />
+                  <p style=" color:black ;margin-top:-0.5%">JavaScript</p>
                 </div>
                 <div>
                   <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
@@ -454,14 +319,183 @@
                 </div> -->
               </div>
             </div>
-          </div> 
+          </div>
+        </div>
 
-           <div class="title">
-            <h2>Zoomcar</h2>
+        <div class="col-12 col-lg-4">
+          <div class="title">
+            <h2>Nordstrom Rack</h2>
+          </div>
+          <div class="project wow fadeInUp">
+            <img src="./Jyoti/Screenshot (19).png" alt="" />
+            <div class="" style="margin-top: 20px;">
+              <a href="https://fastidious-bienenstitch-ad0779.netlify.app/" target="blank" class="text">Visit</a>
+              <a href="https://github.com/Kandpalgokul01/NordstromRack_Construct_Week_1" target="blank"
+                class="text">Source
+                Code</a>
 
-      </div>
+            </div>
+            <p style="color: black; padding: 2% 2% 2% 2%;">
+              Nordstromrack is an Indian e-commerce website
+              which provides the facility of Shopping online for
+              shoes, clothing, jewelry, dresses, makeup and
+              more from top brands at.
 
-    </div>
+            </p>
+            <div style=" margin:auto;  margin-top: 4%; ">
+              <h3 style="color: black; margin: auto; margin-top: 6%; ; width: max-content; height: max-content;">Tech
+                Stack</h3>
+              <div style="display: flex; margin:auto; width: 90%; justify-content: space-around; ;">
+                <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://mpng.subpng.com/20180810/biz/kisspng-javascript-scalable-vector-graphics-logo-encapsula-javascript-le-ekran-grnts-almak-alpere-5b6dbeb48e4583.2854840415339189005828.jpg" />
+                  <p style=" color:black ;margin-top:-0.5%">JavaScript</p>
+                </div>
+                <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://www.pngitem.com/pimgs/m/198-1985012_transparent-css3-logo-png-css-logo-transparent-background.png" />
+                  <p style=" color:black ;margin-top:-0.5%">CSS</p>
+                </div>
+                <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png" />
+                  <p style=" color:black ;margin-top:-0.5%">HTML</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- Yaha tha wo -->
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="title">
+            <h2>Jiomart</h2>
+          </div>
+          <div class="project wow fadeInUp" data-wow-delay="0.1s">
+            <img src="./Jyoti/Screenshot (20).png" alt="" />
+
+            <div class="" style="margin-top: 20px;">
+
+              <a href="https://gucci1909.github.io/Jio-Mart-Website-Clone/" target="blank" class="text">Visit</a>
+              <a href="https://github.com/gucci1909/Jio-Mart-Website-Clone" target="blank" class="text">Source Code</a>
+            </div>
+            <p style="color: black; padding: 2% 2% 2% 2%;">
+              JioMart is an Indian e-commerce website which
+              provides the facility of buying Online Grocery from
+              a wide range of fruits, vegetables, baby care
+              products, personal care products and much more.
+
+            </p>
+            <div style=" margin:auto;  margin-top: 4%; ">
+              <h3 style="color: black; margin: auto; margin-top: 6%; ; width: max-content; height: max-content;">Tech
+                Stack</h3>
+              <div style="display: flex; margin:auto; width: 90%; justify-content: space-around; ;">
+                <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://mpng.subpng.com/20180810/biz/kisspng-javascript-scalable-vector-graphics-logo-encapsula-javascript-le-ekran-grnts-almak-alpere-5b6dbeb48e4583.2854840415339189005828.jpg" />
+                  <p style=" color:black ;margin-top:-0.5%">JavaScript</p>
+                </div>
+                <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://www.pngitem.com/pimgs/m/198-1985012_transparent-css3-logo-png-css-logo-transparent-background.png" />
+                  <p style=" color:black ;margin-top:-0.5%">CSS</p>
+                </div>
+                <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png" />
+                  <p style=" color:black ;margin-top:-0.5%">HTML</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="title">
+            <h2>Nykaa</h2>
+          </div>
+          <div class="project wow fadeInUp" data-wow-delay="0.2s">
+            <img src="./Jyoti/Screenshot (22).png" alt="" />
+            <div class="" style="margin-top: 20px;">
+              <a href="https://fascinating-squirrel-ee2e99.netlify.app/" target="blank" class="text">Visit</a>
+              <a href="https://github.com/jigna16/groovy-airplane-6414" target="blank" class="text">Source Code</a>
+            </div>
+            <p style="color: black; padding: 2% 2% 2% 2%;">
+              It is an Indian e-commerce website which deals in
+              cosmetics & beauty products online.It is a beauty retail company that sells cosmetic commodities and
+              fashion products, including men's innerwear, both online and offline.
+            </p>
+            <div style=" margin:auto;  margin-top: 4%; ">
+              <h3 style="color: black; margin: auto; margin-top: 6%; ; width: max-content; height: max-content;">Tech
+                Stack</h3>
+              <div style="display: flex; margin:auto; width: 90%; justify-content: space-around; ;">
+                <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://mpng.subpng.com/20180810/biz/kisspng-javascript-scalable-vector-graphics-logo-encapsula-javascript-le-ekran-grnts-almak-alpere-5b6dbeb48e4583.2854840415339189005828.jpg" />
+                  <p style=" color:black ;margin-top:-0.5%">JavaScript</p>
+                </div>
+                <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://www.pngitem.com/pimgs/m/198-1985012_transparent-css3-logo-png-css-logo-transparent-background.png" />
+                  <p style=" color:black ;margin-top:-0.5%">CSS</p>
+                </div>
+                <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png" />
+                  <p style=" color:black ;margin-top:-0.5%">HTML</p>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="title">
+            <h2>Sugar Cosmetics</h2>
+          </div>
+          <div class="project wow fadeInUp" data-wow-delay="0.2s">
+            <img src="./Jyoti/Screenshot (23).png" alt="" />
+
+            <div class="" style="margin-top: 20px;">
+              <div>
+
+              </div>
+              <a href="https://dazzling-genie-da491d.netlify.app/" target="blank" class="text">Visit</a>
+              <a href="https://github.com/jigna16/wanting-string-6207" target="blank" class="text">Source Code</a>
+            </div>
+            <p style="color: black; padding: 2% 2% 2% 2%;">
+              SUGAR Cosmetics is an Indian e-commerce company, founded by Vineeta Singh (Co-founder and CEO) with its
+              headquarters in Mumbai. It focuses on selling makeup and skincare products that are millennial friendly,
+              best suited for Indian skintones </p>
+            <div style=" margin:auto;  margin-top: 4%; ">
+              <h3 style="color: black; margin: auto; margin-top: 6%; ; width: max-content; height: max-content;">Tech
+                Stack</h3>
+              <div style="display: flex; margin:auto; width: 90%; justify-content: space-around; ;">
+                <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://th.bing.com/th/id/OIP.Gix8OpUf5OSBg4_zKare5AHaHa?pid=ImgDet&rs=1" />
+                  <p style=" color:black ;margin-top:-0.5%">ReactJS</p>
+                </div>
+                <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://ignitinsharma.github.io/static/media/JavaScript.3dfb665e058d08c99f28.png" />
+                  <p style=" color:black ;margin-top:-0.5%">JavaScript</p>
+                </div>
+                <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://img.stackshare.io/service/12421/rzylUjaf_400x400.jpg" />
+                  <p style=" color:black ;margin-top:-0.5%">Chakra UI</p>
+                </div>
+                <!-- <div>
+                  <img alt="Redux" style="height: 30px; width: 30px; margin-top: 5%;"
+                    src="https://4.bp.blogspot.com/-Fxo_qnGJBj0/WRoDPNdlEII/AAAAAAAABF0/1mSHmv5gleQaCsHKEDgTB3DbNghjCXvZACLcB/s1600/logo_firebase_1920px_clr.png" />
+                  <p style=" color:black ;margin-top:-0.5%">Firebase</p>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
   </section>
 
   <!-- Work Experience Ends  -->
@@ -481,15 +515,21 @@
 
                   <div class="calendar"></div>
                 </div>
-                
+
             </section>
 
         </div>
         </form>
       </div>
-      <div class="githubStyle" ><p id="st1"><img    src="https://github-readme-stats.vercel.app/api/top-langs?username=jigna16&show_icons=true&locale=en&layout=compact" alt="jyoti kumari" /></p>
-        <p id="st2">&nbsp;<img  src="https://github-readme-stats.vercel.app/api?username=jigna16&show_icons=true&locale=en" alt="jyoti kumari" /></p>
-        <p id="st"><img  src="https://github-readme-streak-stats.herokuapp.com/?user=jigna16&" alt="jyoti kumari" /></p></div>
+      <div class="githubStyle">
+        <p id="st1"><img
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=jigna16&show_icons=true&locale=en&layout=compact"
+            alt="jyoti kumari" /></p>
+        <p id="st2">&nbsp;<img
+            src="https://github-readme-stats.vercel.app/api?username=jigna16&show_icons=true&locale=en"
+            alt="jyoti kumari" /></p>
+        <p id="st"><img src="https://github-readme-streak-stats.herokuapp.com/?user=jigna16&" alt="jyoti kumari" /></p>
+      </div>
     </div>
     </div>
     </div>
@@ -506,29 +546,27 @@
       <div class="col-12">
         <div id="centermass">
           <div class="soc">
-            <a title="Github profile Link" target="_blank" href="https://github.com/jigna16"
-              style="color: white;">
-              jigna16 
+            <a title="Github profile Link" target="_blank" href="https://github.com/jigna16" style="color: white;">
+              jigna16
             </a>
-            <a title="Github profile Link" target="_blank" href="https://github.com/jigna16"
-            style="color: white;">
-            <i class="fab fa-github"></i>
-          </a>
-            
+            <a title="Github profile Link" target="_blank" href="https://github.com/jigna16" style="color: white;">
+              <i class="fab fa-github"></i>
+            </a>
+
           </div>
 
 
           <div class="soc">
-            <a title="linkedin profile link" target="_blank"
-              href="https://www.linkedin.com/in/jyoti-kumari-83162523b/" style="color: white;">
-             jyoti kumari
+            <a title="linkedin profile link" target="_blank" href="https://www.linkedin.com/in/jyoti-kumari-83162523b/"
+              style="color: white;">
+              jyoti kumari
 
             </a>
-            <a title="linkedin profile link" target="_blank"
-            href="https://www.linkedin.com/in/jyoti-kumari-83162523b/" style="color: white;">
-           <i class="fab fa-linkedin"></i>
+            <a title="linkedin profile link" target="_blank" href="https://www.linkedin.com/in/jyoti-kumari-83162523b/"
+              style="color: white;">
+              <i class="fab fa-linkedin"></i>
 
-          </a>
+            </a>
           </div>
 
 
@@ -540,7 +578,7 @@
             </a>
             <a title="linkedin profile link" target="_blank" href="mailto:kumarijyoti199916@gmail.com"
               style="color: white;">
-            <i class="fa fa-envelope" style="background-color: white; color: black;"></i>
+              <i class="fa fa-envelope" style="background-color: white; color: black;"></i>
 
             </a>
           </div>
@@ -549,7 +587,7 @@
               +91 7011018749
             </a>
             <a title="linkedin profile link" target="_blank" href=" " style="color: white;">
-            <i class="fa fa-phone" style="background-color: rgb(129, 129, 196);"></i>
+              <i class="fa fa-phone" style="background-color: rgb(129, 129, 196);"></i>
             </a>
           </div>
         </div>
@@ -595,13 +633,9 @@
 </script>
 <script>
   GitHubCalendar(".calendar", "jigna16", { responsive: true });
-  
+
 </script>
 
 <script>
-  
+
 </script>
-
-
-  
- 

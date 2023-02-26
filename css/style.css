@@ -233,13 +233,7 @@ a {
   transition: 0.5s ease;
   background-color: transparent;
 }
-#resumebutton{
-  background-color: #7c00c9; color: white; width: 100px; height: 30px; font-weight: bold; border-radius: 5px; font-size: 15px; border: none;
-  cursor: pointer;
-}
-#resumebutton:hover{
-  background-color: rgb(134, 2, 129);
-}
+
 .worKExp {
   width: 50%;
   margin-left: 25%;

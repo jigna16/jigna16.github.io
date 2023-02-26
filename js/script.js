@@ -92,3 +92,10 @@ window.addEventListener("scroll", () => {
     navbarNav.classList.remove("navBar");
   }
 });
+
+let resumeSection= document.getElementById("resumebutton")
+resumeSection.addEventListener("click",()=>{
+  window.open(
+    "https://drive.google.com/file/d/1CV7dJ6WKB2eJGTs7P9fEP1DvwBWOBW7x/view?usp=sharing"
+  )
+})
